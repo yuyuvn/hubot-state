@@ -1,0 +1,28 @@
+{
+  "name": "hubot-state",
+  "version": "1.0.0",
+  "description": "Support session for hubot",
+  "main": "./src/state",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyuvn/hubot-state.git"
+  },
+  "author": "Clicia Scarlet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuyuvn/hubot-state/issues"
+  },
+  "homepage": "https://github.com/yuyuvn/hubot-state#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "hubot": "^2.18.0",
+    "hubot-mock-adapter": "^1.0.0",
+    "should": "^8.3.1"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
